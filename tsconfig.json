@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "diagnostics": true,
+    "target": "ES2019",
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowJs": true,
+    "watch": false,
+    "rootDir": "./",
+    "outDir": "dist",
+    "inlineSources": true,
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "baseUrl": ".",
+    "typeRoots": [
+      "typings",
+      "node_modules/@types"
+    ],
+    "lib": [
+      "ES2020"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
